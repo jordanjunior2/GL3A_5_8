@@ -31,6 +31,13 @@ public Robot fight( Robot rb1,Robot rb2){
 
 
         }
+public void magie(){
+        if(vie==0){
+        vie== 10;
+        System.out.println("le combat continu jai"+vie+"de vie ")
+
+        }
+        }
 
 public  void main(String[] args){
 
@@ -40,3 +47,7 @@ public  void main(String[] args){
         fight(D2R2,Data);
         }
         }
+
+        D2R2.fight(-2);
+        D2R2.magie();
+        System.out.println("le combat est rude ");
