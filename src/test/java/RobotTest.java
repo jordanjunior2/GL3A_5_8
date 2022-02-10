@@ -17,9 +17,9 @@ class RobotTest {
 
     @Test
     void isDead() {
-
-        String attend = "Est vivant";
-        assertEquals(attend,obj.isDead(8));
+        //verification de la vie
+        String attendedmessage = "Est vivant";
+        assertEquals(attendedmessage,obj.isDead(8));
     }
 
     @Test

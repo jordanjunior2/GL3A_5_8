@@ -1,3 +1,19 @@
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
+//Ajout de la classe Arena
+class ArenaTest {
+
+    Robot obj = new Robot("bob");
+    Robot adversaire = new Robot("bobby");
+    @Test
+    void fight() {
+
+        assertEquals(obj1,obj);
+    }
+
+}
+
 public Robot fight( Robot rb1,Robot rb2){
 
         Robot vainqueur = null ;
