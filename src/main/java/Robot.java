@@ -9,6 +9,7 @@ public class Robot {
         System.out.println("Robot : "+nom);
     }
 
+    //test methode fire
     public int fire(Robot rb)
     {
 
