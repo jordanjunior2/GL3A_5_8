@@ -25,6 +25,7 @@ class RobotTest {
     @Test
     void isDead2() {
 
+        //verification de la vie
         String attendedmessage = "Est mort";
         assertEquals(attendedmessage,obj.isDead(0));
     }
