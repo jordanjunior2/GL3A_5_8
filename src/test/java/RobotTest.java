@@ -18,14 +18,14 @@ class RobotTest {
     @Test
     void isDead() {
 
-        String attendedmessage = "Est vivant";
-        assertEquals(attendedmessage,obj.isDead(8));
+        String attend = "Est vivant";
+        assertEquals(attend,obj.isDead(8));
     }
 
     @Test
     void isDead2() {
 
-        //verification de la vie
+        //verification de la vie2
         String attendedmessage = "Est mort";
         assertEquals(attendedmessage,obj.isDead(0));
     }
